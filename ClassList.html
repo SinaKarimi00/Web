@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Start form -->
+    <div class="form col-md-6">
+        <!-- Row 1 for First Name -->
+        <div class="row">
+            <div class="lab">
+                <!-- Name of Row 1 -->
+                <label for="firstName">First Name</label>
+            </div>
+            <div class="inp">
+                <!-- Input for First Name -->
+                <input type="text" id="firstName">
+                <span class="invalid"></span>
+            </div>
+        </div>
+        <!-- Row 2 for Last Name -->
+        <div class="row">
+            <div class="lab">
+                <!-- Name of Row 2 -->
+                <label for="lastName">Last Name</label>
+            </div>
+            <div class="inp">
+                <!-- Input for Last Name -->
+                <input type="text" id="lastName">
+                <span class="invalid"></span>
+            </div>
+        </div>
+        <!-- Row 3 for Mark -->
+        <div class="row">
+            <div class="lab">
+                <!-- Name of Row 3 -->
+                <label for="mark">Mark</label>
+            </div>
+            <div class="inp">
+                <!-- Input for Mark -->
+                <input onkeypress="ko()" type="text" id="mark">
+                <span class="invalid"></span>
+            </div>
+        </div>
+        <!-- Row 4 for Add button -->
+        <div class="row">
+            <div class="butt">
+                <!-- Add button -->
+                <button onclick="Add()">Add</button>
+                <!-- Max button -->
+                <button onclick="BestStudent()">Best Student</button>
+                <!-- Min button -->
+                <button onclick="WorseStudent()">Worse Student</button>                
+            </div>
+        </div>
+    </div>
+    <!-- End of form -->
+    <!-- Start Show form -->
+    <div class="show-form col-md-6">
+        <div class="main-show-form">
+            <div class="row">
+                <div class="col">First Name</div>
+                <div class="col">Last Name</div>
+                <div class="col">Mark</div>
+            </div>
+        </div>
+        <!-- This div for show the data that addd in list(in this div we use js) -->
+        <div class="show-data" id="show-data">
+        
+        </div>
+    </div>
+    <!-- End of Show form -->
+    <script src="AddData.js"></script>
+</body>
+</html>
