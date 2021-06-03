@@ -1,0 +1,33 @@
+*{box-sizing: border-box;}
+body{margin: 0;}
+#main{
+    margin: 50px;
+    border: solid #eeeeee 1px;
+    width: 250px;
+    box-shadow: 0 2px 5px #eeeeee;
+}
+h3{
+    margin: 0;
+    background-color: rgb(190, 190, 190);
+    padding: 20px;
+    text-align: center;
+}
+img{
+    width: 100%;
+    border: 2px solid #eeeeee;
+    display: block;
+    padding: 20px;
+}
+.matn{
+    padding: 10px;
+}
+label{
+    display: block;
+    padding: 15px;
+}
+#top{
+    padding: 10px;
+}
+h3:hover{
+    cursor: pointer;
+}
