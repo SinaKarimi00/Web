@@ -1,0 +1,36 @@
+*{box-sizing: border-box;}
+body{margin: 0;}
+#nav{
+    background-color: #555555;
+    position: relative;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+a{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+}
+a:hover{
+    background-color: #202020;
+}
+#navChild{
+    background-color: blue;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+#close{
+    position: absolute;
+    font-size: 1.5em;
+    right: 0;
+    box-shadow: none;
+    background-color: inherit;
+    border: none;
+}
