@@ -2,12 +2,12 @@
 body{margin: 0;}
 #nav{
     background-color: #555555;
-    position: relative;
 }
 ul{
     display: flex;
     list-style: none;
     margin: 0;
+    position: relative;
 }
 a{
     display: block;
@@ -30,7 +30,15 @@ a:hover{
     position: absolute;
     font-size: 1.5em;
     right: 0;
+    top: 0;
     box-shadow: none;
     background-color: inherit;
     border: none;
+    cursor: pointer;
 }
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+
